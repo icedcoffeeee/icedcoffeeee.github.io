@@ -13,16 +13,16 @@
     <title>about me</title>
 </head>
 
-<body style="opacity: 0; transition: opacity .5s;">
+<body>
     <!-- Navigation  -->
     <div class="bg-white fixed top-0 w-full bg-opacity-30 backdrop-blur-lg md:flex
     md:justify-between" id="navpane">
         <div class="flex m-6 justify-around md:justify-end text-2xl">
-            <span onclick="transitionToPage('./')" class="md:mx-5 hover:text-blue-700 transition">icedcoffeeee</span>
+            <a href="index.html" class="transitionToPage hover:text-blue-700 transition">icedcoffeeee</a>
         </div>
         <div class="flex m-6 justify-around md:justify-end md:text-xl">
-            <a href="#" class="hover:text-blue-700 transition">About Me</a>
-            <span onclick="transitionToPage('interests.html')" class="md:mx-5 hover:text-blue-700 transition">Interests</span>
+            <a class="transition hover:text-blue-700 md:px-5" href="#">About Me</a>
+            <a class="transitionToPage transition hover:text-blue-700 md:px-5" href="interests.html">Interests</a>
         </div>
     </div>
 

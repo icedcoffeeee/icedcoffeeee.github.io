@@ -12,15 +12,15 @@
     <title>interests</title>
 </head>
 
-<body style="opacity: 0; transition: opacity .5s;">
+<body>
     <!-- Navigation  -->
-    <div class="bg-white fixed top-0 w-full bg-opacity-30 backdrop-blur-lg md:flex md:justify-between z-10" id="navpane">
+    <div id="navpane" class="bg-white fixed top-0 w-full bg-opacity-30 backdrop-blur-lg md:flex md:justify-between z-10">
         <div class="flex m-6 justify-around md:justify-end text-2xl">
-            <span onclick="transitionToPage('./')" class="md:mx-5 hover:text-blue-700 transition">icedcoffeeee</span>
+            <a href="index.html" class="transitionToPage hover:text-blue-700 transition">icedcoffeeee</a>
         </div>
         <div class="flex m-6 justify-around md:justify-end md:text-xl">
-            <span onclick="transitionToPage('about.html')" class="md:mx-5 hover:text-blue-700 transition">About Me</span>
-            <a href="#" class="hover:text-blue-700 transition">Interests</a>
+            <a class="transitionToPage transition hover:text-blue-700 md:px-5" href="about.html">About Me</a>
+            <a class="transition hover:text-blue-700 md:px-5" href="#">Interests</a>
         </div>
     </div>
 
