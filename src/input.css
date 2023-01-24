@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.carousel {
+  background: #eee;
+}
+.carousel-cell {
+  width: 66%;
+  aspect-ratio: 1;
+  margin-right: 2rem;
+  background: white;
+  border-radius: 2rem;
+}
+
+.flickity-prev-next-button {
+  width: 7%;
+  height: 10%;
+  background: rgba(0, 0, 0, 0.7);
+}
+.flickity-prev-next-button:hover {
+  background: rgb(0, 0, 0);
+}
+.flickity-button-icon {
+  fill: white;
+}
+.flickity-page-dots {
+  bottom: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.flickity-page-dots .dot {
+  width: 20%;
+  height: 20%;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid white;
+}
+.flickity-page-dots .dot.is-selected {
+  background: white;
+}
+
+.fade-on-scroll {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.expand-on-scroll > div {
+  max-height: 0;
+  transition: max-height 1s;
+}
+.expand-on-scroll > div > img {
+  scale: 1.5;
+  transition: scale 1s;
+}
+
+/*# sourceMappingURL=input.css.map */

@@ -1,8 +1,4 @@
 
 .vscode/settings.json
 node_modules
-src
-tailwind.config.js
-package.json
-package-lock.json
 *.map
