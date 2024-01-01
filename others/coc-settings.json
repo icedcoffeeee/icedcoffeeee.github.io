@@ -1,7 +1,0 @@
-{
-  "python.formatting.provider": "black",
-  "python.analysis.diagnosticSeverityOverrides": {
-    "reportGeneralTypeIssues": "none"
-  },
-  "suggest.noselect": true
-}
