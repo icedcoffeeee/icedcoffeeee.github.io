@@ -1,29 +1,28 @@
 <script setup lang="ts">
-let {
+const {
   src,
   "v-click": vc,
-  left,
-  adjust,
   foot,
+  adjust,
+  left,
 } = defineProps({
   src: String,
-  left: Boolean,
-  adjust: Boolean,
   "v-click": String,
   foot: String,
+  adjust: Boolean,
+  left: Boolean,
 });
 </script>
-
 <template>
   <div
-    v-bind:v-click="vc"
+    :v-click="vc"
     class="px-12 flex flex-col items-center justify-center gap-2"
   >
     <span class="text-xs text-center text-slate-400 font-mono">{{ foot }}</span>
     <img
-      v-bind:un-h="adjust ? 'auto' : left ? 84 : 100"
+      :un-h="adjust ? 'auto' : left ? 84 : 100"
       class="rounded-lg"
-      v-bind:src="'/presentations/plasma-pet' + src";
+      :src="'/presentations/plasma-pet' + src"
     />
   </div>
 </template>
