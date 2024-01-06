@@ -23,7 +23,7 @@ let {
     <img
       v-bind:un-h="adjust ? 'auto' : left ? 84 : 100"
       class="rounded-lg"
-      :src
+      v-bind:src="'/presentations/plasma-pet' + src";
     />
   </div>
 </template>
