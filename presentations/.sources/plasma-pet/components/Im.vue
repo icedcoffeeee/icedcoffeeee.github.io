@@ -22,7 +22,7 @@ const {
     <img
       :un-h="adjust ? 'auto' : left ? 84 : 100"
       class="rounded-lg"
-      :src="'/presentations/plasma-pet' + src"
+      :src="'./' + src"
     />
   </div>
 </template>
