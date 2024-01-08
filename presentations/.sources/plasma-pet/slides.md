@@ -53,31 +53,22 @@ image: "/mvl-intro.jpg"
 
 # Introduction
 
-A mercury vapour lamp is a
+<div class="mb-20">
 
-<v-clicks>
+A mercury vapour lamp is a <HL>gas discharge lamp</HL> using an <HL>electric
+arc</HL> running through <HL>vapourized mercury</HL> to produce light!
 
-- gas discharge lamp
-- used an electric arc
-- vapourized mercury
-- producing light!
-
-</v-clicks>
-
+</div>
 
 <v-click> 
 
-Why I chose MVLs as my Plasma Pet
-
-</v-click> 
-
-<v-clicks>
+## Why I chose MVLs as my Plasma Pet
 
 - Bright
 - Easy to maintain
 - Overall just pretty
 
-</v-clicks>
+</v-click>
 
 ---
 layout: two-cols
